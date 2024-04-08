@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 *,
 *::before,
 *::after {
@@ -6,8 +6,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --n-height:100px
+:root {
+  --n-height: 100px;
+  --h-color-black:#03010b;
+  --h-color-purple:#280886;
+  --h-color-white:#ffffff;
+  --p-color-black:#03010b;
+  --p-color-blue:#5215fc;
+  --p-color-white:#ffffff;
+  --p-color-grey:#68676d;
+  --b-color-purple:#280886;
+  --b-color-light-blue:#410ed3;
+  --b-color-blue:#5215fc;
+  --b-color-light-purple:#885fff;
+  --b-color-green:#73b93b;
+
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -24,11 +37,11 @@
 ::selection {
   background-color: #0b372dbb;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Forum", sans-serif;
   overflow-x: hidden;
 }
 h1 {
@@ -54,9 +67,9 @@ h6 {
 p {
   font-size: 1rem;
 }
-a{
+a {
   text-decoration: none;
-  color: #000000;
+  color: var(--h-color-black);
   text-transform: uppercase;
 }
 .logo {
@@ -276,30 +289,19 @@ main {
   pointer-events: none;
 }
 /* Wave button */
-.btn-g{
-  z-index: 99999;
-  position: absolute;
-  top: 0;
-  left: 0;
+.btn-bg.Ocean .btn-group .Debris button {
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  background: transparent;
+  transition: all 2s ease;
+  background: #239ed3;
 }
-.btn-bg {
+.btn-bg.Ocean .btn-group .Debris button span {
   position: absolute;
-}
-
-
- .btn-bg.Ocean .btn-group .Debris button {
-   color: #fff;
-   overflow: hidden;
-   position: relative;
-   border-radius: 5px;
-   border: 5px solid #fff;
-   background: transparent;
-   transition: all 2s ease;
-   background: #239ed3;
-}
- .btn-bg.Ocean .btn-group .Debris button span {
-  position: absolute;
-  content: '';
+  content: "";
   top: 1.5em;
   left: 50%;
   width: 20em;
@@ -312,19 +314,18 @@ main {
   animation: wave 5s infinite linear;
   transition: all 2s ease, top 1.5s ease;
 }
- .btn-bg.Ocean .btn-group .Debris button:hover {
+.btn-bg.Ocean .btn-group .Debris button:hover {
   color: #ffffff;
   border-color: #50514f;
   transition: all 2s ease;
 }
- .btn-bg.Ocean .btn-group .Debris button:hover span {
+.btn-bg.Ocean .btn-group .Debris button:hover span {
   opacity: 1;
   top: 0.5em;
   background-color: #50514f;
   /* #8df02b; */
   transition: all 2s ease, top 1.5s ease;
 }
-
 
 @media screen and (max-width: 480px) {
   .btn-group {
@@ -399,4 +400,3 @@ button a {
     transform: rotate(360deg) scale(1);
   }
 }
-
