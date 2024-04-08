@@ -288,6 +288,37 @@ main {
   );
   pointer-events: none;
 }
+
+/* Carrer */
+
+.container{
+  margin-top: 50px;
+}
+.career-opper{
+  margin-top: -60px;
+  margin-left: -60px;
+}
+
+.card{
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.card-text{
+  text-align: justify;
+  color: #555;
+}
+.card-title{
+  text-align: center;
+  
+}
+
+.CardIcons{
+  color: #378BA4;
+text-align: center;
+font-size: 40px;
+}
+=======
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
   color: #fff;
