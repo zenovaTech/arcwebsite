@@ -437,7 +437,8 @@ font-size: 40px;
     font-size: 4.5rem;
     text-align: center;
     margin-top: -200px;
-    color: #ffffff;
+    color: var(--h-color-white);
+
   }
   .banner img{
       width: 100%;
@@ -487,14 +488,13 @@ font-size: 40px;
   
   }
   
-  
    .name{
-      color: hsl(245, 94%, 21%);
+      color:var(--h-color-purple);
       font-weight:bolder;
   }
   
   .des{
-      color: hsl(245, 94%, 21%);
+      color:var(--h-color-purple);
       font-weight:bolder;
   }
   .team_text img{
