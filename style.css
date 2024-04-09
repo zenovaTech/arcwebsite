@@ -275,3 +275,108 @@ main {
   );
   pointer-events: none;
 }
+
+
+/* Clients */
+style
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#myImg {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+#myImg:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+
+.column{
+  margin-left: 250px;
+}
+
+.new{
+  margin-left:700px;
+  color: white;
+  margin-top: -250px;
+}
+
+.new1{
+  margin-top: 220px;
+}
+
+.content{
+  margin-left: 250px;
+  margin-top: 5px;
+  text-align: initial;
+}
+
+.hi{
+  margin-left: 1050px;
+  margin-top: -610px;
+  text-align:initial
+}
+
+.div3{
+  margin-top: -10px;
+}
+
+.div4{
+  margin-top: 130px;
+}
+
+.div2{
+  margin-top: 50px;
+}
+
+.div1{
+  margin-top: 190px;
+}
+
+.content div a{
+  margin-top:20px;
+  display:inline-block;
+}
+.content div:hover{
+  background:#447ef1;
+  transform:translateY(-5px);
+  width: 600px;
+}
+
+.hi div a{
+  margin-top:20px;
+  display:inline-block;
+}
+.hi div:hover{
+  background:#447ef1;
+  transform:translateY(-5px);
+  width:575px;
+}
+
