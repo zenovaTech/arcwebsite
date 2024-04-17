@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 *,
 *::before,
@@ -118,7 +119,7 @@ header nav ul li:not(.search):not(.hamburger) a::after {
   position: absolute;
   left: 0;
   bottom: -6px;
-  margin-left: 10%; /* Half of the width */
+  margin-left: 10%;  
   transition: 0.5s;
 }
 header nav ul li:not(.search):not(.hamburger) a:hover::after {
@@ -287,6 +288,12 @@ main {
     rgba(0, 0, 0, 0.7)
   );
   pointer-events: none;
+} 
+
+
+/* About us  */
+.centered { 
+   
 }
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
