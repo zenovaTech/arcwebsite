@@ -295,22 +295,21 @@ main {
 .centered { 
    
 }
+
 .centered:hover{
 font-size: large;
 }
 
 
-
-
 h3{
  margin-top: -5px;
- color:black
+ color:var(--h-color-black);
 }
 
 .choise {
  margin-top: -200px;
  margin-top: -280px;
- color: rgb(14, 13, 13);
+ color: var(--p-color-black);
 }
 .poppins-regular{
  font-family: "Poppins", sans-serif;
@@ -323,11 +322,16 @@ h3{
  font-weight: 500;
  font-style: normal;
  font-size: 2.5rem; 
+ color: #000;
+ margin:0px;
 }
+
+
 .poppins-regula2{
   font-size: 3.5rem;}
 .poppins-regular3{
   font-size: 2.5rem; 
+  text-align: justify;
 }
   .poppins-regula4{
     font-size: 2rem;
@@ -349,11 +353,11 @@ p{
 .tet {
  margin-top:-400px;
  margin-left: 650px;
-
- color:rgb(242, 243, 248); 
+ color:var(--h-color-white); 
 }
 .button {
  margin-left: 800px;
+ color:var(--p-color-blue);
 }
 .droupdown{
 margin-top: 70px;
@@ -404,10 +408,14 @@ margin-top: 70px;
 .hide {
  display: none;
 }
-
+.aboutus{
+  margin-left: 350px;
+  background-color: var(--p-color-grey);
+  text-align: justify;
+}
 .myDIV:hover + .show {
  display: block;
- color: rgb(31, 16, 233);
+ color:var(--b-color-light-purple)
 }
 .container {
  position: relative;
@@ -425,7 +433,7 @@ margin-top: 70px;
  bottom: 0;
  left: 0;
  right: 0;
- background-color: #008CBA;
+ background-color:var(--b-color-light-blue);
  overflow: hidden;
  width: 100%;
  height: 0;
@@ -437,7 +445,7 @@ margin-top: 70px;
 }
 
 .text {
- color: white;
+ color:var(--h-color-white);
  font-size: 20px;
  position: absolute;
  top: 50%;
@@ -453,34 +461,29 @@ margin-top: 70px;
 .our{
   margin-left: 200px;
   margin-bottom: 10px;
+
 }
-.vision{
+.vishion{
   margin-left: 820px;
-  margin-bottom: -40px;
+margin-bottom: -70px;
  
 }
 .mission{
-  margin-left: 350px;
-  margin-bottom: 10px;
+  margin-left: 330px;
+  margin-bottom: -70px;
+  
 }
+
+
 .our1{
   margin-left: 510px;
-  background-color: #ffffff;
+
 }
-
-
-
 
 
 
 .rss.opacity { filter: invert(100%); }
 
-
-
-
-
-
-=======
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
   color: #fff;
@@ -537,7 +540,7 @@ button {
   cursor: pointer;
   overflow: visible;
   outline: none;
-  color: #fff;
+  color:var(--h-color-white);
   position: relative;
   letter-spacing: 0.1em;
   font-weight: 400;
