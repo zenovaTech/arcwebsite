@@ -475,12 +475,6 @@ margin-top: 70px;
 
 .rss.opacity { filter: invert(100%); }
 
-
-
-
-
-
-=======
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
   color: #fff;
@@ -767,7 +761,7 @@ style
 
 .new{
   margin-left:700px;
-  color: white;
+  color: #ffffff;
   margin-top: -250px;
 }
 
@@ -792,7 +786,7 @@ style
 }
 
 .div4{
-  margin-top: 130px;
+  margin-top: 265px;
 }
 
 .div2{
@@ -800,7 +794,7 @@ style
 }
 
 .div1{
-  margin-top: 190px;
+  margin-top: 315px;
 }
 
 .content div a{
@@ -808,8 +802,8 @@ style
   display:inline-block;
 }
 .content div:hover{
-  background:#447ef1;
-  transform:translateY(-5px);
+  background:var(--b-color-light-purple);
+    transform:translateY(-5px);
   width: 600px;
 }
 
@@ -818,8 +812,11 @@ style
   display:inline-block;
 }
 .hi div:hover{
-  background:#447ef1;
+  background:var(--b-color-light-purple);
   transform:translateY(-5px);
   width:575px;
 }
 
+.cl{
+  color: var(--h-color-purple);
+}
