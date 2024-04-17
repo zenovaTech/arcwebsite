@@ -714,13 +714,6 @@ margin-bottom: -70px;
 
 .rss.opacity { filter: invert(100%); }
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
@@ -930,11 +923,7 @@ text-align: center;
 font-size: 40px;
 }
 
-/* contact us */
-.co{
-  margin-left: 470px;
-  color:var(#ffffff)
-}
+
 .form{
   margin-left: 60px;
   margin-top: 100px;
@@ -942,6 +931,66 @@ font-size: 40px;
 }
 h4{
   margin-left: 575px;
+}
+
+.message{
+  width:500px;
+  height:300px;
+}
+
+.contact1{
+  margin-top:-250px ;
+  color:rgb(252, 252, 252);
+  margin-left: 400px;  
+}
+.row2{
+ 
+  width:730px;
+  height:800px;
+  margin-left: 400px;
+  margin-top: 150px;
+ 
+}
+.see{
+  color:rgb(151, 200, 243);
+}
+.row3{
+  background-color: rgb(245, 246, 248);
+  width:500px;
+  height:500px;
+  text-align: center;
+ margin-top: 510px;
+ margin-left: 0px;
+}
+.an{
+  margin-left:50px;
+ 
+}
+.of{
+  margin-left: 8px;
+  
+}
+p{
+  margin-left: 8px;
+}
+.appointmen{
+ margin-top: -400px;
+  margin-left: 100px;
+}
+.row4{
+  background-color: rgb(250, 250, 250);
+  margin-top:800px;
+  width:900px;
+  margin-left:0px;
+ 
+}
+.to{
+  margin-left: 550px;
+  margin-top: -250px;
+}
+
+.mapouter{
+  margin-top: -640px;
 }
   .to{
   margin-left: 900px;
@@ -951,30 +1000,172 @@ h4{
 .mapouter{
   margin-top: -200px;
 
+
   width:1000px;
   height:500px;
 }
 .row5{
+
+  margin-left: 1100px;
+  margin-top: 200px;
+  width:800px;
+
   margin-left: 300px;
   margin-top: -1700px;
   width:500px;
+
   height:750px;
  
 }
 .icon{
+
+  margin-left: 1500px;
+  margin-top: 10px;
   margin-left: 700px;
   margin-top: -400px;
+
 }
 .in{
   margin-left: 50px;
 }
 .us{
+  margin-left: -150px;
   margin-left: 100px;
   color:var(--b-color-purple)
 }
 .for{
   margin-left: -100px;
   margin-top: 100px;
+}
+
+
+    
+    .close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+    
+
+/* contact us */
+.co{
+  margin-left: 470px;
+
+/* contact us */
+.co{
+  margin-left: 470px;
+  color:var(#ffffff)
+}
+
+
+/* Clients */
+style
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#myImg {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+#myImg:hover {
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.1); 
+}
+
+.column{
+  margin-left: 250px;
+}
+
+.new{
+  margin-left:700px;
+  color: #ffffff;
+  margin-top: -250px;
+}
+
+.new1{
+  margin-top: 220px;
+}
+
+.content{
+  margin-left: 250px;
+  margin-top: 5px;
+  text-align: initial;
+}
+
+.hi{
+  margin-left: 1050px;
+  margin-top: -610px;
+  text-align:initial
+}
+
+.div3{
+  margin-top: -10px;
+}
+
+.div4{
+  margin-top: 265px;
+}
+
+.div2{
+  margin-top: 50px;
+}
+
+.div1{
+  margin-top: 315px;
+}
+
+.content div a{
+  margin-top:20px;
+  display:inline-block;
+}
+.content div:hover{
+  background:var(--b-color-light-purple);
+    transform:translateY(-5px);
+  width: 600px;
+}
+
+.hi div a{
+  margin-top:20px;
+  display:inline-block;
+}
+.hi div:hover{
+  background:var(--b-color-light-purple);
+  transform:translateY(-5px);
+  width:575px;
+}
+
+.cl{
+  color: var(--h-color-purple);
+}
+
   color:var(--p-color-grey)
 }
 button{
@@ -1084,4 +1275,4 @@ p{
   
   .our_team:hover .team_text{
       height: 100%;
-      cursor: pointer;
+    cursor: pointer;}
