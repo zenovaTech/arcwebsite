@@ -469,18 +469,7 @@ margin-top: 70px;
 }
 
 
-
-
-
-
 .rss.opacity { filter: invert(100%); }
-
-
-
-
-
-
-=======
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
   color: #fff;
@@ -625,6 +614,7 @@ font-size: 40px;
 /* contact us */
 .co{
   margin-left: 470px;
+  color:var(#ffffff)
 }
 .form{
   margin-left: 60px;
@@ -649,8 +639,8 @@ h4{
  
   width:730px;
   height:800px;
-  margin-left: 400px;
-  margin-top: 150px;
+  margin-left:0px;
+  margin-top: 350px;
  
 }
 .see{
@@ -677,44 +667,95 @@ p{
 }
 .appointmen{
  margin-top: -400px;
-  margin-left: 100px;
+  margin-left: 1000px;
 }
 .row4{
   background-color: rgb(250, 250, 250);
-  margin-top:800px;
-  width:900px;
-  margin-left:0px;
+  margin-top:-800px;
+  width:500px;
+  height:700px;
+  margin-left:800px;
  
 }
 .to{
-  margin-left: 550px;
-  margin-top: -250px;
+  margin-left: 900px;
+  margin-top: -200px;
 }
 
 .mapouter{
-  margin-top: -640px;
+  margin-top: -200px;
 
   width:1000px;
   height:500px;
 }
 .row5{
-  margin-left: 1100px;
-  margin-top: 200px;
-  width:800px;
+  margin-left: 300px;
+  margin-top: -1700px;
+  width:500px;
   height:750px;
  
 }
 .icon{
-  margin-left: 1500px;
-  margin-top: 10px;
+  margin-left: 700px;
+  margin-top: -400px;
 }
 .in{
   margin-left: 50px;
 }
 .us{
-  margin-left: -150px;
+  margin-left: 100px;
+  color:var(--b-color-purple)
 }
 .for{
   margin-left: -100px;
   margin-top: 100px;
+  color:var(--p-color-grey)
+}
+button{
+  color:var(--b-color-blue)
+}
+.we{
+  color:var(--h-color-black)
+}
+.of{
+  color:var(--h-color-purple)
+}
+.lc img:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+ 
+  
+}
+.lc img{
+  transition:transform.2s;
+}
+.lc{
+  margin-top: 200px;
+}
+.phone{
+  margin-left: 20px;
+  margin-top: -70px;
+}
+.circle{
+  margin-left: 80px;
+}
+.circle3{
+margin-left: 120px;
+}
+.location{
+  margin-top: -80px;
+  margin-left: 25px;
+}
+.circle2{
+  margin-top:100px;
+  margin-left: 100px;
+}
+.email{
+  margin-top:-70px;
+  margin-left: 25px;
+}
+.row8{
+  margin-top: 300px;
+  margin-left: -10px;
 }
