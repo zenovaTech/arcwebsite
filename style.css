@@ -295,6 +295,23 @@ main {
 .centered { 
    
 }
+
+
+.centered:hover{
+font-size: large;
+}
+
+
+h3{
+ margin-top: -5px;
+ color:var(--h-color-black);
+}
+
+.choise {
+ margin-top: -200px;
+ margin-top: -280px;
+ color: var(--p-color-black);
+=======
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
   color: #fff;
@@ -305,6 +322,7 @@ main {
   background: transparent;
   transition: all 2s ease;
   background: #239ed3;
+
 }
 .btn-bg.Ocean .btn-group .Debris button span {
   position: absolute;
@@ -321,6 +339,23 @@ main {
   animation: wave 5s infinite linear;
   transition: all 2s ease, top 1.5s ease;
 }
+
+.poppins-regular1{
+  font-family: "Poppins", sans-serif;
+ font-weight: 500;
+ font-style: normal;
+ font-size: 2.5rem; 
+ color: #000;
+ margin:0px;
+}
+
+
+.poppins-regula2{
+  font-size: 3.5rem;}
+.poppins-regular3{
+  font-size: 2.5rem; 
+  text-align: justify;
+=======
 .btn-bg.Ocean .btn-group .Debris button:hover {
   color: #ffffff;
   border-color: #50514f;
@@ -332,6 +367,7 @@ main {
   background-color: #50514f;
   /* #8df02b; */
   transition: all 2s ease, top 1.5s ease;
+
 }
 
 @media screen and (max-width: 480px) {
@@ -347,6 +383,19 @@ main {
   display: block;
 }
 
+.tet {
+ margin-top:-400px;
+ margin-left: 650px;
+ color:var(--h-color-white); 
+}
+.button {
+ margin-left: 800px;
+ color:var(--p-color-blue);
+}
+.droupdown{
+margin-top: 70px;
+=======
+
 button {
   cursor: pointer;
   overflow: visible;
@@ -359,6 +408,7 @@ button {
   text-transform: uppercase;
   font-family: "Lato";
   font-size: 1.5em;
+
 }
 button a {
   text-decoration: none;
@@ -433,10 +483,21 @@ button a {
   color: var(--h-color-purple);
 }
 
+.aboutus{
+  margin-left: 350px;
+  background-color: var(--p-color-grey);
+  text-align: justify;
+}
+.myDIV:hover + .show {
+ display: block;
+ color:var(--b-color-light-purple)
+=======
+
 .CardIcons{
 color: var(--p-color-blue);
 text-align: center;
 font-size: 50px;
+
 }
 .hhh{
   height: 300px;
@@ -547,6 +608,16 @@ font-size: 50px;
 }
 
 .overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color:var(--b-color-light-blue);
+ overflow: hidden;
+ width: 100%;
+ height: 0;
+ transition: .5s ease;
+=======
   position: absolute;
   top: 0;
   bottom: 0;
@@ -564,6 +635,35 @@ font-size: 50px;
 }
 
 .text {
+
+ color:var(--h-color-white);
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+.button1{
+  margin-left: 600px;
+}
+.our{
+  margin-left: 200px;
+  margin-bottom: 10px;
+
+}
+.vishion{
+  margin-left: 820px;
+margin-bottom: -70px;
+ 
+}
+.mission{
+  margin-left: 330px;
+  margin-bottom: -70px;
+  
+=======
   color: white;
   font-size: 15px;
   position: absolute;
@@ -573,6 +673,7 @@ font-size: 50px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
   
@@ -581,7 +682,11 @@ font-size: 50px;
     margin-top: 30px;
   }
 
+.our1{
+  margin-left: 510px;
 
+
+=======
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -604,6 +709,7 @@ font-size: 50px;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+
 }
 
 /* The Close Button */
@@ -614,14 +720,14 @@ font-size: 50px;
   font-weight: bold;
 }
 
+.rss.opacity { filter: invert(100%); }
+=======
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 /* Wave button */
 .btn-bg.Ocean .btn-group .Debris button {
@@ -679,7 +785,7 @@ button {
   cursor: pointer;
   overflow: visible;
   outline: none;
-  color: #fff;
+  color:var(--h-color-white);
   position: relative;
   letter-spacing: 0.1em;
   font-weight: 400;
